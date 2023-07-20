@@ -1,0 +1,42 @@
+.box{
+    display: flex;
+    margin-right: 20px;
+}
+
+.text{
+    margin-right: 30px;
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+   
+}
+
+.btn{
+    color: white;
+    border: none;
+    border-radius: 4px;
+        background: var(--iris, #4D5AE5);
+        box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+            font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 0.64px;
+                border: none;
+                cursor: pointer;
+                transition: 250ms;
+        width: 80px;
+    
+}
+
+.btn:hover,
+.btn:focus{
+    background-color: #404BBF;
+        transition: 250ms;
+}
+
